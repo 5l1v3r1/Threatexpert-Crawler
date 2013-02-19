@@ -1,0 +1,18 @@
+
+Script for finding malware samples and their details from www.threatexpert.com
+
+Uses google search API to find URLs that match specific criteria. Limited to 100 searches a day for the free version Hence theorotically only 300000 results can be obtained in a day.
+
+
+Usage: testing_threatexpert.py [options] [url]
+options: 
+                crawl = Start Crawling
+                db = re-run from table api_results_cache
+                url = scrape the url specified in [url]
+
+
+Use threatexpert_schema.sql to generate schema for a database for storing results. There is a built in functionality to re crawl the pages once the google api results are cached. crawling can also be done on a per URL basis
+
+The following sql file has been tested with PostgreSQL and may not work with other implementations of SQL. 
+
+ 
