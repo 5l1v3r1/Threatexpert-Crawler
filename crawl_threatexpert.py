@@ -19,8 +19,8 @@ HTTP_REQUEST="HTTP_REQUEST"
 GET="GET"
 
 base='https://www.googleapis.com/customsearch/v1?'
-cx='000537549279345043756:qkuwoeqo2kq'
-key='AIzaSyA8SaBD46R3m7VaNcjENNzH0qYZlw0snYs'
+cx=''
+key=''
 num=100
 drange="d30"
 
